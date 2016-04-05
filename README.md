@@ -12,10 +12,12 @@ npm install xpcshell-unit-test
 
 You need to pass paths to both a Firefox source directory and a built directory. For example:
 
+```
 xpcshell-test \
   --firefox-obj-dir ../gecko-dev/obj-x86_64-apple-darwin15.3.0 \
   --firefox-src-dir ../gecko-dev \
   <file-or-directory>...
+```
 
 It is recommended to automate this by creating a shell alias or an npm script.
 
