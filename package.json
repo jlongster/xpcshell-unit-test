@@ -1,0 +1,10 @@
+{
+  "name": "xpcshell-unit-test",
+  "bin": {
+    "xpcshell-test": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "minimist": "^1.2.0"
+  }
+}
